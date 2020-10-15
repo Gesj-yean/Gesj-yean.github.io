@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "deploy": "bash deploy.sh",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "element-ui": "^2.13.2",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.4",
+    "@vuepress/plugin-last-updated": "^1.5.3",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0"
+  }
+}
